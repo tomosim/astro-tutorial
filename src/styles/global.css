@@ -1,0 +1,36 @@
+html {
+  background-color: #f1f5f9;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80ch;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  color: hotpink;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  background-color: coral;
+  padding: 0.15rem 0.3rem;
+  border-radius: 0.2rem;
+}
+
+a:hover {
+  background-color: white;
+  color: coral;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.2s;
+}
